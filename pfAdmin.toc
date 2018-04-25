@@ -1,0 +1,16 @@
+## Interface: 11200
+## Title: |cff33ffccpf|cffffffffAdmin
+## Author: Shagu
+## Notes: A GM/Admin Addon
+## Version: 0.1
+## OptionalDeps: pfUI, pfQuest
+
+# core api
+compat\pfUI.lua
+
+# addon
+pfAdmin.lua
+modules\senditem.lua
+modules\dropdown.lua
+modules\ticketlist.lua
+modules\ticket.lua
