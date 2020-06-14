@@ -106,6 +106,7 @@ pfAdmin.tickets:SetScript("OnUpdate", function()
   if ( this.tick or 1) > GetTime() then return else this.tick = GetTime() + 10 end
   RefreshList()
 end)
+pfAdmin.tickets:Hide()
 
 pfUI.api.CreateBackdrop(pfAdmin.tickets, nil, nil, .75)
 
